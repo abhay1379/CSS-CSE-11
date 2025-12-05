@@ -1,0 +1,152 @@
+  /* h2{
+    color: blue;
+} */
+/* p{
+    color: brown;
+     text-align:center;
+    font-size: 25px; */
+/* }
+.par{
+    color: red;
+}
+#ak{
+    color:blue;
+}
+div{
+    height:200px;
+    width:200px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    align-content:center;
+    padding: 10px;
+    margin:100px;
+    border: 5px solid red;
+}  */ 
+ /* element selector: universal
+class selector: 
+you can assign 1 class to the multiple elements or  you can assign multiple classes to the single element. -->
+
+ css properties;
+
+color: set color of a text. */
+/* p{
+    color: color_name/rgb/rgba/hsl/hsla/hexadecimal(#rrggbb)
+} */
+/* rgb:( for red;(255,0,0))
+hexadecimal:(for red;(#FF0000))
+HSL values( e.g, hsl(0,100%,50%)) */
+
+/* background-color: sets background color;
+
+text align: align the text in anelement at a specific position.
+text-align: lef/right/center/justify/start/end/initial/inherit. 
+ */
+
+
+ /* em: relative to the font size of parent element.
+rem:relative to the font size of root 'HTML' element.
+%:relative to the font size of parent element.
+smaller and larger: these unis adjust the font size relative to the parent element. -->
+ div{
+    height:50px;
+    width:400px;
+    border: 2px solid black;
+    padding:20px;
+} 
+h1{
+    color: blue;
+    text-align:center;
+}
+p{
+    color:red;
+}*/
+
+/* @media (condition)
+
+320px-small phone
+480-large phones
+768px-tablets
+1024px-small laptopes
+1200px+-dextop */
+
+ @media(max-width:768px){ 
+ p{
+    font-size: 14px;
+  }
+  h1{
+    display:none;
+  }
+}
+.box{
+    width:100%;
+    height:100px;
+    background-color:brown;
+
+  }
+nav ul{
+    display:flex;
+
+    justify-content: space-around;
+}
+nav ul{
+    display:flex;
+
+    flex-direction:collumn;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#333;
+    padding:1renm;
+
+}
+.menu{
+    display:none;
+
+
+}
+/* tablet & desktop */
+@media(min-width:768px){
+    .menu{
+        display:flex;
+        
+    }
+}
+
+/* 
+ .container{
+      width:100px;
+      background-color:red;
+      font-size:1em;
+} */
+/* text-decoration:none; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
