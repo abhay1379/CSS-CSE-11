@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d1{
+    background-color: rgb(170, 168, 168);
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+.box{
+    border: 2px solid black;
+}
+p{
+    display: inline;
+    color: red;
+}
+.nav1 a{
+    padding: 10px;
+    background-color: lightblue;
+    line-height: 50px;
+    margin: 10px;
+}
+.nav2 a{
+    padding: 10px;
+    background-color: lightgreen;
+    line-height: 50px;
+   margin:10px;
+}
